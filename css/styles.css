@@ -1,3 +1,4 @@
-h1 {
-  background-color: landing.jpg
+header{
+background-image:url("../ip2/assets/backgrounds/landing.jpg");
+text-align: center;
 }
