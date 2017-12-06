@@ -1,5 +1,14 @@
-header{
+.bg{
+  /*The image used*/
 background-image:url("../ip2/assets/backgrounds/landing.jpg");
 text-align: center;
+
+/* Full height */
+height: 100%;
+
+/* Centre and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
  important
