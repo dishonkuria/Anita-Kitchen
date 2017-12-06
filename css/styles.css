@@ -25,3 +25,11 @@ background-size: cover;
    background-repeat: no-repeat;
    background-size: cover;
  }
+ .btn {
+     border: none; /* Remove borders */
+     color: white; /*Add a text color*/
+     padding:14px 28px; /*Add some padding */
+     cursor: pointer; /*Add a pointer cursor on mouse-over */
+ }
+ .FastFood {background-color: #e7e7e7; color:black;} /*Gray*/
+ .FastFood: hover {background: #ddd;}
