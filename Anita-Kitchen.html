@@ -44,66 +44,87 @@
 </div>
 <div class="container">
   <div class="row">
-    <div class="col-4">
+    <div class="test-box" id="zero">
+    <div class="col-4" id="first">
       <img src="ip2/assets/fastFood1.jpg" alt="a fastFood1 image">
       <img src="ip2/assets/fastFood2.jpg" alt="a fastFood2 image">
+</div>
     </div>
-  <div class="col-9">
+  <div class="col-8">
+    <div class="test-box" id="comment">
     <h2>Fastfood</h2>
       <h3>You'll love our delicious fast food</h3>
     <p> When you order from our prestigios joint, we work on it on less time thus reducing the waiting
       of which you only have to make an order at our online platform </P>
-    </div>
-  </div>
+    <button class="button"><span>VIEW GALLERY </span></button>
 </div>
+    </div>
 
 
-<div class="container">
+
+<div class="container" id="cont">
   <div class="row">
-    <div class="col-6">
+<div class="col-6">
+<div class="test-box" id="two">
 <h2>Drinks</h2>
   <h3>We also produce delicious drinks</h3>
 
    <p>Our cocktail drinks are more to our taste theme of choclate dark curtain.These brings up a nice
     touch for a long afternoon or that lonely evening.</p>
+      <button class="button"><span>VIEW GALLERY </span></button>
      </div>
-
+</div>
     <div class="col-6">
+      <div class="test-box" id="one">
     <img src="ip2/assets/drink1.jpg" alt="add drink 1 image">
-    <img src="ip2/assets/drink2.jpg" alt="add drink2.image">
+    <img src="ip2/assets/drink2.jpg" alt="add drink2.image" id="size">
+</div>
     </div>
    </div>
   </div>
 
+
   <div class="container">
     <div class="row">
-      <div class="col-3">
-        <button class="btn fastfood">FastFood</button>
+
+      <div class="col-6">
+
+        <button class="btn btn-primary dropdown-toggle"
+        type="button" data-toggle="dropdown">FastFood<span class="caret"></span></button>
+        <ul class="list-inline">
+          <li><a href="#"><img src="ip2/assets/fastfood/chickenBurger.jpg" alt="beefBurger.image"></a></li>
+          <li><a href="#"><img src="ip2/assets/fastfood/beefBurger.jpg" alt="chickenBurger.jpg" id="ant"></a></li>
+          <li><a href="#"><img src="ip2/assets/fastfood/chickenPizza.jpg" alt="chickenPizza image" id="gy"></a></li>
+        </ul>
+      </div>
+        <div class=col-3">
+          <button class="btn Drinks">Drinks</button>
+        </div>
+        <div class="col-3">
+          <button class="btn Chicken">Chicken</button>
+        </div>
+        <div class="col-3">
+          <button class="btn Rice">Rice</button>
 
       </div>
-      <div class=col-3">
-        <button class="btn Drinks">Drinks</button>
-      </div>
-      <div class="col-3">
-        <button class="btn Chicken">Chicken</button>
-      </div>
-      <div class="col-3">
-        <button class="btn Rice">Rice</button>
-      </div>
-      <div class="col-4">
-          <img src="ip2/assets/fastfood/chickenBurger.jpg" alt="beefBurger.image">
+        <div class="col-6">
+</div>
+
+
+               </div>
+            </div>
+          </div>
+
           <h3>ChickenBurger</h3>
         </div>
        <div class="col-4">
-         <img src="ip2/assets/fastfood/beefBurger.jpg" alt="chickenBurger.jpg">
+
          <h3>BeefBurger</h3>
        </div>
        <div class="col-4">
-         <img src="ip2/assets/fastfood/chickenPizza.jpg" alt="chickenPizza image">
-       </div>
-    </div>
-  </div>
 
+
+ <div class="jumbotron text-centre">
  <div class="cointainer">
    <div class="row">
      <div class="col-6">
@@ -111,8 +132,47 @@
        <h3>George Richard</h3>
        <p>Great food! Menu is awesome, there foods are not only great but also in the right price.I'll
          highly recommend them:)</p>
+         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+           <!--Indicators-->
+           <ol class="Carousel-indicators">
+             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+             <li data-target="#myCarousel" data-slide-to="1"></li>
+             <li data-target="#myCarousel" data-slide-to="2"></li>
+           </ol>
 
+           <!--Wrapper for slides -->
+           <div class="carousel-inner">
+             <div class="item active">
+               <img src="assets/customers/p1.png" alt="png">
+              style="width:100%;">
+
+             </div>
+
+             <div class="item">
+               <img src="assets/customers/p2.png" alt="png">
+
+             </div>
+
+             <div class="item">
+               <img src="assets/customers/p3.png" alt="png">
+             </div>
+           </div>
+
+           <!--Left and right controls-->
+           <a class="left carousel-control"
+          href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left">
+            </span>
+            <span class="sr-only">Previous</span>
+          </a>
+
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+            </a>
        </div>
+     </div>
+
        <div class="col-6">
          <h2>About Menu</h2>
          <p>We are menu a little team of 7 members.
@@ -121,9 +181,11 @@
          </div>
        </div>
      </div>
+   </div>
 
      <h2>Get our daily food items delivered to your email</h2>
 
+    <div class="jumbotron">
      <div class="container">
        div class="bg2">
 
@@ -133,8 +195,9 @@
    <p>Thats What We Are</P>
    </div>
 </div>
+</div>
 
 
- </div>
+
 </body>
 </html>
